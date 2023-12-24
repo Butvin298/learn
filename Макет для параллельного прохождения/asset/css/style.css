@@ -1,0 +1,129 @@
+html, body{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 1260px; /* 1280px исправленно, проверить fonts.css* - без учета padding В 30px*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 52px;
+    padding: 0 40 px;
+}
+
+.logo {
+
+}
+
+/*--------------------Header top-----------------*/
+
+.header {
+
+}
+
+.header_top {
+
+}
+
+.container {
+
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    margin-right: 474px;
+}
+
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+.header__nav-item:last-child{
+    margin: 0;
+}
+
+.header__nav-link {
+    font-weight: 700;
+    line-height: 1.6;
+    color: 1E1B1B;
+}
+
+.header_body { /* выравнивание */
+    display: flex;
+    align-items: center;
+}
+
+.logo-number {
+
+}
+
+
+.header__top-button {
+
+}
+
+.header__top-buttons {
+
+}
+
+/* ============================== HEADER BODY ============================== */
+
+
+/* ============================== ABOUT ============================== */
+
+
+/* ============================== DIRECTIONS (We follow a clear...) ============================== */
+
+
+/* ============================== Brands we Serve ============================== */
+
+
+/* ============================== Out Blog ============================== */
+
+
+/* ============================== Team ============================== */
+
+
+/* ============================== Fraquently Asked Questions ============================== */
+
+
+/* ============================== Get in touch with our experts ============================== */
+
+
+/* ============================== FOOTER ============================== */
+
+
+/* ================================== MEDIA =============================== */
+
+
+/* ================================== MEDIA =============================== */
+
+
+/* ================================== 1200 ================================ */
+
+
+/* ================================== 1100 ================================ */
