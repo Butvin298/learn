@@ -1,1 +1,18 @@
+ .body{
+    width: 1360px; /* 1380px исправленно, проверить fonts.css* - без учета padding В 30px*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
  
+.nav{
+    display:flex;
+}
+
+ id{
+
+ }
+ 
+ .flex{
+    display: flex;
+
+ }

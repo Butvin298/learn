@@ -9,18 +9,18 @@ html, body{
     overflow: hidden;
 }
 
-.container{
-    width: 1260px; /* 1280px исправленно, проверить fonts.css* - без учета padding В 30px*/
+.container{ /* сделал на 100px шире*/
+    width: 1360px; /* 1380px исправленно, проверить fonts.css* - без учета padding В 30px*/
     padding: 0 15px;
     margin: 0 auto;
 }
-
+/*
 .button {
     font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 52px;
     padding: 0 40 px;
-}
+} */
 
 .logo {
 
@@ -33,11 +33,11 @@ html, body{
 }
 
 .header_top {
-
+    
 }
 
 .container {
-
+    width: 1360px;
 }
 
 .header__top-inner {
@@ -71,59 +71,328 @@ html, body{
     line-height: 1.6;
     color: 1E1B1B;
 }
-
-.header_body { /* выравнивание */
+/*
+.header__btn-box { 
     display: flex;
     align-items: center;
 }
+*/
+.color{
+    position: relative;
+}
 
-.logo-number {
+.bg{
+    background-image: url(../img/BG.png);
+}
 
+.call{
+    background-image: url(../img/Call.png);
+}
+
+.logo-number button{
+    display: flex;
+    flex-direction: column;
+    height: 2px;
 }
 
 
-.header__top-button {
 
-}
 
-.header__top-buttons {
-
-}
 
 /* ============================== HEADER BODY ============================== */
+/*.header__body {
+    flex-grow: 1;
+}*/
+
+.header__body-inner {
+    
+}
+/*
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1E212C;
+    margin: auto 0;
+} */
+
+.header__content {
+    display: flex;
+    
+}
+
+
+.header__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    max-width: 1360px;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+.header__content-buttons {
+}
+
+.man{
+   margin-left: 260px;
+}
+.man_button1{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+    width: 400px;
+}
+.man_button2{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+    width: 400px;
+}
+.header__content-btn {
+   
+}
+.input1 {
+  display: inline-block;
+  background: orangered;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 10%;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 100px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.button--empty {
+
+}
+.header_play {
+    margin-left: 50px;
+}
+
+.text{
+    line-height: 10px;
+}
+
+.header__img {
+  
+}
+
+
 
 
 /* ============================== ABOUT ============================== */
+.main__task {
+    
+}
+.task {
+    
+}
 
+.task__inner {
+    background-color: aliceblue;
+}
+.task_heading {
+
+}
+
+.heading {
+
+}
+
+.heading--text-center {
+
+}
+
+.heading__subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.heading__title {
+    display: flex;
+    justify-content: center;
+}
+
+
+.companies__grid {
+  
+}
+
+.block{
+    display: grid;
+    border: 5px solid #d1e231;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(2,150px);
+    justify-content: center;
+}
+
+.companies__grid-item {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.companies__grid-link {
+ 
+}
+
+#Learn_about_services {
+    text-align: right;
+}
 
 /* ============================== DIRECTIONS (We follow a clear...) ============================== */
 
+.direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow{
+    width: 725px;
+    min-height: 300px;
+}
+
+.input{
+  display: inline-block;
+  background: orangered;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 10%;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  cursor: pointer;
+}
+.numbers {
+
+    width: 325px;
+    margin-left: 725px;
+}
+
+#num{
+    list-style-type: none;
+    line-height: 285px;
+    
+}
+
+#nums{
+
+}
+.paragraphs {
+    width: 450px;
+    min-height: 425px;
+    margin-left: 10px
+}
+
+/* ============================== Get in touch ============================== */
+
+.get_in_touch{
+    background: url(../img/Двигатель.png);
+    position: relative;
+}
+
+.get_in_touch_block{
+    /*
+    position:absolute;
+    width:210px;
+    background-color:black;
+    color:white;
+    top:0;left:0;
+    padding-left:10px;
+    padding-top:10px;
+    font-size:16px;
+    z-index:5;
+  */
+  display: block;
+  width: 450px;
+  height: 150px;
+  background-color: orangered;
+}
 
 /* ============================== Brands we Serve ============================== */
 
+.Brands {
+   
+}
+.brands_we_serve {
 
-/* ============================== Out Blog ============================== */
+}
 
+/* ============================== Our Blog ============================== */
+
+.Our_blog {
+}
+.info {
+}
+.post {
+}
+.post_info {
+}
 
 /* ============================== Team ============================== */
 
 
 /* ============================== Fraquently Asked Questions ============================== */
 
+.frequently {
+    background-color: aliceblue;
+}
+.frequently_asked {
+}
 
 /* ============================== Get in touch with our experts ============================== */
 
+.registration {
 
-/* ============================== FOOTER ============================== */
+}
+.Get_in_touch {
+
+}
+.form {
+
+}
+.form_label {
+
+}
+.from_input {
+
+}
+.address {
+
+}
+.map {
+
+}
+.fon {
+
+}
+
+/* ============================== FOOTER TOP ============================== */
 
 
-/* ================================== MEDIA =============================== */
+/* ============================== FOOTER BOTTOM============================== */
 
 
-/* ================================== MEDIA =============================== */
-
-
-/* ================================== 1200 ================================ */
-
-
-/* ================================== 1100 ================================ */
