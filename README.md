@@ -182,6 +182,7 @@
 
 24 Урок - Position
 	Памятка:
+	https://tpverstak.ru/how-to-use-the-position-property-in-css/
 	Вопросы:
 
 25 Урок - Transform
@@ -198,10 +199,13 @@
 
 28 Урок - Flexbox
 	Памятка:
+	https://tpverstak.ru/flex-cheatsheet/
+
 	Вопросы:
 
 29 Урок - Grid
 	Памятка:
+	https://tpverstak.ru/grid/
 	Вопросы:
 
 30 Урок - Псевдоклассы: hover, visitedm active, focus, first-child и т.п.

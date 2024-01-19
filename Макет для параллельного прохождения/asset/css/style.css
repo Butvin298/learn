@@ -177,7 +177,7 @@ html, body{
   text-decoration: none;
   font-family: Tahoma;
   font-size: 18px;
-  line-height: 100px;
+  line-height: 20px;
   font-weight: 100;
   cursor: pointer;
 }
@@ -239,10 +239,15 @@ html, body{
 
 .block{
     display: grid;
-    border: 5px solid #d1e231;
-    grid-template-columns: repeat(4,150px);
-    grid-template-rows: repeat(2,150px);
+    /*
+    grid-template: repeat(2, 1fr) /repeat(4, 1fr);
+    grid-column-gap: ;
+    */
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(2,250px);
     justify-content: center;
+    
+    
 }
 
 .companies__grid-item {
@@ -332,11 +337,35 @@ html, body{
   background-color: orangered;
 }
 
+/* ============================== 20+... ============================== */
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+#h1{
+    color: #661CE7;
+}
+
 /* ============================== Brands we Serve ============================== */
 
 .Brands {
-   
+    background-color: aliceblue;
+    padding-top: 50px;
 }
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+.serve{
+    display: grid;
+    grid-template: repeat(2, 1fr) /repeat(5, 1fr);
+    grid-column-gap: 1dvi;
+    grid-row-gap: 50px;
+    padding-top: 20px;
+}
+
 .brands_we_serve {
 
 }
@@ -344,23 +373,82 @@ html, body{
 /* ============================== Our Blog ============================== */
 
 .Our_blog {
+    padding-top: 50px;
 }
+
 .info {
+
+
 }
+.info_top{
+
+}
+
+.info_bottom{
+display: flex;
+gap: 15px;
+}
+
 .post {
+    display: grid;
+    grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+    grid-column-gap: 73px;
 }
+
 .post_info {
+    display: grid;
+
+}
+
+#post_text{
+    font-size: 17px;
 }
 
 /* ============================== Team ============================== */
+.team {
+    background-color: aliceblue;
+}
+
+.Our_customers {
+    display: flex;
+    justify-content: center;
+}
+
+.people {
+    /*
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    */
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    grid-column-gap: ;
+    justify-content: center;
+
+    background-color: white;
+}
+
+
+
+.first_people {
+    
+}
+
+.second_people {
+
+}
 
 
 /* ============================== Fraquently Asked Questions ============================== */
-
+.header_ask{
+    display: flex;
+    justify-content: center;
+}
 .frequently {
     background-color: aliceblue;
 }
 .frequently_asked {
+
 }
 
 /* ============================== Get in touch with our experts ============================== */
